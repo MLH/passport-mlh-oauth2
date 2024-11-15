@@ -1,0 +1,49 @@
+{
+  "name": "@mlhacks/passport-mlh-oauth2",
+  "version": "4.0.0",
+  "description": "MyMLH v4 OAuth 2.0 authentication strategy for Passport",
+  "main": "./lib/index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/*.test.js",
+    "coverage": "nyc npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonmarkgo/passport-mlh-oauth2.git"
+  },
+  "keywords": [
+    "passport",
+    "mlh",
+    "mymlh",
+    "auth",
+    "authn",
+    "authentication",
+    "identity",
+    "oauth",
+    "oauth2"
+  ],
+  "author": "Jonathan Gottfried",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonmarkgo/passport-mlh-oauth2/issues"
+  },
+  "homepage": "https://github.com/jonmarkgo/passport-mlh-oauth2#readme",
+  "dependencies": {
+    "passport-oauth2": "^1.8.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "nock": "^13.5.6",
+    "nyc": "^15.1.0",
+    "sinon": "^19.0.2"
+  },
+  "engines": {
+    "node": ">= 14.0.0"
+  }
+}
