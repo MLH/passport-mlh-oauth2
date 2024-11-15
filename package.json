@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonmarkgo/passport-mlh-oauth2.git"
+    "url": "https://github.com/MLH/passport-mlh-oauth2"
   },
   "keywords": [
     "passport",
@@ -27,12 +27,12 @@
     "oauth",
     "oauth2"
   ],
-  "author": "Jonathan Gottfried",
+  "author": "Major League Hacking",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jonmarkgo/passport-mlh-oauth2/issues"
+    "url": "https://github.com/mlh/passport-mlh-oauth2/issues"
   },
-  "homepage": "https://github.com/jonmarkgo/passport-mlh-oauth2#readme",
+  "homepage": "https://my.mlh.io/",
   "dependencies": {
     "passport-oauth2": "^1.8.0"
   },
