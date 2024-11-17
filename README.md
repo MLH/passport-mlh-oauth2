@@ -1,6 +1,6 @@
 # passport-mlh-oauth2
 
-[![npm version](https://badge.fury.io/js/passport-mlh.svg)](https://badge.fury.io/js/passport-mlh)
+[![npm version](https://badge.fury.io/js/passport-mlh-oauth2.svg)](https://badge.fury.io/js/passport-mlh-oauth2)
 [![Build Status](https://github.com/MLH/passport-mlh-oauth2/actions/workflows/node.js.yml/badge.svg)](https://github.com/MLH/passport-mlh=oauth2/actions/workflows/node.js.yml)
 
 This is the official [Passport.js](http://www.passportjs.org/) strategy for authenticating with [MyMLH](https://my.mlh.io) in Node.js applications. To use it, you'll need to [register an application](https://my.mlh.io/developers) and obtain an OAuth Application ID and Secret from MyMLH.
