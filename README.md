@@ -1,4 +1,4 @@
-# passport-mlh
+# passport-mlh-oauth2
 
 [![npm version](https://badge.fury.io/js/passport-mlh.svg)](https://badge.fury.io/js/passport-mlh)
 [![Build Status](https://github.com/MLH/passport-mlh-oauth2/actions/workflows/test.yml/badge.svg)](https://github.com/MLH/passport-mlh=oauth2/actions/workflows/test.yml)
