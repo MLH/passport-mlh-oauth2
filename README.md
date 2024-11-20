@@ -15,7 +15,7 @@ This module requires Node.js version `14.0.0` or higher.
 Install the package via npm:
 
 ```bash
-npm install passport-mlh-oauth2
+npm install @mlhacks/passport-mlh-oauth2
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ You can find a list of potential scopes and expandable fields in the [MyMLH API 
 
 ```javascript
 const passport = require('passport');
-const MLHStrategy = require('passport-mlh');
+const MLHStrategy = require('passport-mlh-oauth2');
 
 passport.use(new MLHStrategy({
     clientID: process.env.MY_MLH_KEY,
