@@ -101,6 +101,8 @@ You can find the full User object structure in the [MyMLH API documentation](htt
 - `clientID` - Your MyMLH application's client ID.
 - `clientSecret` - Your MyMLH application's client secret.
 - `callbackURL` - URL to which MyMLH will redirect the user after granting authorization.
+- `authorizationURL` - OAuth authorization endpoint (defaults to `https://www.mlh.com/oauth/authorize`).
+- `tokenURL` - OAuth token endpoint (defaults to `https://api.mlh.com/v4/oauth/token`).
 - `scope` - Space-separated list of permissions (e.g., `'public offline_access user:read:profile'`).
 - `expandFields` - Optional array of fields to expand in the user profile (e.g., `['education', 'professional_experience']`).
 
