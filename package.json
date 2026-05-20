@@ -1,6 +1,6 @@
 {
   "name": "@mlhacks/passport-mlh-oauth2",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "MyMLH v4 OAuth 2.0 authentication strategy for Passport",
   "main": "./lib/index.js",
   "type": "module",
