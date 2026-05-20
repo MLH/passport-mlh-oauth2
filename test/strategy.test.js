@@ -17,8 +17,8 @@ describe('MLHStrategy', function() {
         clientSecret: 'secret'
       }, function() {});
 
-      expect(strategy._oauth2._authorizeUrl).to.equal('https://my.mlh.io/oauth/authorize');
-      expect(strategy._oauth2._accessTokenUrl).to.equal('https://my.mlh.io/oauth/token');
+      expect(strategy._oauth2._authorizeUrl).to.equal('https://www.mlh.com/oauth/authorize');
+      expect(strategy._oauth2._accessTokenUrl).to.equal('https://api.mlh.com/v4/oauth/token');
       expect(strategy._profileURL).to.equal('https://api.mlh.com/v4/users/me');
     });
   });
