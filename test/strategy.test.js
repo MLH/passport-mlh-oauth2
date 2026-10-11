@@ -53,13 +53,14 @@ describe('MLHStrategy', function() {
         clientSecret: 'secret'
       }, function() {});
 
-      strategy._data = {
+      // Stand in for the MyMLH API: answer with fake user data.
+      strategy._oauth2.get = (url, token, cb) => cb(null, JSON.stringify({
         id: '123',
         first_name: 'Jane',
         last_name: 'Hacker',
         email: 'jane@example.com',
         phone_number: '+1234567890'
-      };
+      }));
 
       strategy.userProfile('token', function(err, profile) {
         if (err) return done(err);
